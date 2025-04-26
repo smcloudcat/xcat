@@ -23,6 +23,6 @@ https://transfer.nki.pw/
 1. 无
 
 ## 演示图片
-![前台](https://img.czzu.cn/u/lottery/ujnCcAzj.png "前台")
+![前台](https://img.czzu.cn/u/xcat/Hxw0aM8h.png "前台")
 ![创建](https://img.czzu.cn/u/xcat/6ACkgBe8.png "创建")
 ![文件上传](https://img.czzu.cn/u/xcat/zKDFzAzq.png "文件上传")
