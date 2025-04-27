@@ -1,3 +1,7 @@
+/**
+ * v1.1.0 | GPL-2.0 license 
+ * emial：yuncat@email.lwcat.cn
+ */
 :root {
   --primary-color: #1E9FFF;
   --success-color: #5FB878;
@@ -61,4 +65,28 @@ body {
 @media (max-width: 768px) {
   .container-wrapper { padding: 10px; }
   .main-title { font-size: 24px; }
+}
+.captcha-modal {
+    padding: 20px;
+    text-align: center;
+}
+.captcha-img {
+    margin: 10px 0;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.captcha-input {
+    width: 150px;
+    margin: 10px auto;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.layui-table {
+  table-layout: fixed;
+}
+.layui-table td {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
 }

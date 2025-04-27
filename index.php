@@ -8,10 +8,10 @@
   <meta name="keywords" content="XCAT文件传输助手,面对面文件传输,实时文件传输,文件互传">
   <meta name="description" content="XCAT文件传输助手是一个实时文件互传的工具，无需登录任何账号，易操作，两台设备快速传输文件">
   <link rel="stylesheet" href="https://cdn.lwcat.cn/layui/css/layui.css">
-  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/index.css">
-  <!--
+  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/DV/index.css">
+<!--
   <link rel="stylesheet" href="index.css">
-  -->
+-->
 </head>
 <body>
 <div class="container-wrapper">
@@ -63,9 +63,6 @@
           <button id="uploadBtn" class="layui-btn layui-btn-primary layui-btn-fluid">
             <i class="layui-icon layui-icon-upload"></i> 选择文件上传
           </button>
-          <div class="layui-progress layui-progress-big upload-progress" style="display:none;margin-top:15px;" lay-filter="mainProgress">
-            <div class="layui-progress-bar" lay-percent="0%"></div>
-          </div>
           <table class="layui-table" lay-skin="line" style="margin-top:20px;">
             <colgroup>
               <col width="50%">
@@ -86,7 +83,7 @@
 <script src="https://cdn.lwcat.cn/jquery/jquery.js"></script>
 <script src="https://cdn.lwcat.cn/layui/layui.js"></script>
 <script src="https://cdn.lwcat.cn/qrious/qrious.min.js"></script>
-<script src="https://cdn.lwcat.cn/XCAT/index.js"></script>
+<script src="https://cdn.lwcat.cn/XCAT/DV/index.js"></script>
 <!--
 <script src="index.js"></script>
 -->
