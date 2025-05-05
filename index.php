@@ -8,15 +8,29 @@
   <meta name="keywords" content="XCAT文件传输助手,面对面文件传输,实时文件传输,文件互传">
   <meta name="description" content="XCAT文件传输助手是一个实时文件互传的工具，无需登录任何账号，易操作，两台设备快速传输文件">
   <link rel="stylesheet" href="https://cdn.lwcat.cn/layui/css/layui.css">
-  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/1.1.0/index.css">
-<!--
-  <link rel="stylesheet" href="index.css">
--->
+  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/1.1.1/index.css">
+<!--  <link rel="stylesheet" href="index.css">-->
 </head>
 <body>
 <div class="container-wrapper">
   <div class="layui-container">
     <h1 class="main-title">XCAT文件传输助手</h1>
+    
+<div class="card-wrapper" id="announcementBox">
+  <div class="layui-card">
+<div class="layui-card-header">
+  <i class="layui-icon layui-icon-notice"></i> 系统公告
+  <button type="button" class="announcement-close">
+    <i class="layui-icon layui-icon-close"></i>
+  </button>
+</div>
+    <div class="layui-card-body">
+      <div class="announcement-content">
+        <p>📢 最新公告：你所看到的这个版本为1.1.1</p>
+      </div>
+    </div>
+  </div>
+</div>
 
     <div class="card-wrapper" id="createBox">
       <div class="layui-card">
@@ -77,15 +91,18 @@
         </div>
       </div>
     </div>
+    <div style="text-align: center; padding: 30px 0; color: #999; font-size: 14px; border-top: 1px solid #eee; margin-top: 30px;">
+      © 2025 XCAT文件传输助手. All Rights Reserved.
+    </div>
   </div>
+</div>
+</div>
 </div>
 
 <script src="https://cdn.lwcat.cn/jquery/jquery.js"></script>
 <script src="https://cdn.lwcat.cn/layui/layui.js"></script>
 <script src="https://cdn.lwcat.cn/qrious/qrious.min.js"></script>
-<script src="https://cdn.lwcat.cn/XCAT/1.1.0/index.js"></script>
-<!--
-<script src="index.js"></script>
--->
+<script src="https://cdn.lwcat.cn/XCAT/1.1.1/index.js"></script>
+<!--<script src="index.js"></script>-->
 </body>
 </html>

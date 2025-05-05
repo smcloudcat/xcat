@@ -1,5 +1,5 @@
 /**
- * v1.1.0 | GPL-2.0 license 
+ * v1.1.1 | GPL-2.0 license 
  * emial：yuncat@email.lwcat.cn
  */
 let currentCode = '';
@@ -185,3 +185,23 @@ $(function() {
   $(window).on('resize', adjustLayout);
   adjustLayout();
 });
+$(document).on('click', '.announcement-close', function() {
+  const closeTime = Date.now();
+  localStorage.setItem('announcementClosed', closeTime);
+  $('#announcementBox').slideUp(300);
+  console.log('公告已关闭：', new Date(closeTime).toLocaleString());
+});
+const storedTime = localStorage.getItem('announcementClosed');
+if (storedTime) {
+  const timeDiff = Date.now() - parseInt(storedTime, 10);
+  const hoursDiff = timeDiff / (1000 * 60 * 60);
+  if (hoursDiff < 24) {
+    console.log('记录（关闭于'+ hoursDiff.toFixed(1) +'小时前）');
+    $('#announcementBox').hide();
+  } else {
+    console.log('记录已过期（超过'+ Math.floor(hoursDiff) +'小时），清除记录');
+    localStorage.removeItem('announcementClosed');
+  }
+} else {
+  console.log('没有关闭记录');
+}

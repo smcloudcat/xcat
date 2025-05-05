@@ -1,5 +1,5 @@
 <?php
-/** v1.1.0 | GPL-2.0 license 
+/** v1.1.1 | GPL-2.0 license 
  * BY：云猫
  * Blog：lwcat.cn
  * github；https://github.com/smcloudcat/xcat

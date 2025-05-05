@@ -1,8 +1,8 @@
 /**
- * v1.1.0 | GPL-2.0 license 
+ * v1.1.1 | GPL-2.0 license 
  * emial：yuncat@email.lwcat.cn
  */
-:root {
+ :root {
   --primary-color: #1E9FFF;
   --success-color: #5FB878;
 }
@@ -89,4 +89,48 @@ body {
   white-space: normal;
   word-wrap: break-word;
   word-break: break-all;
+}
+#announcementBox {
+  margin-bottom: 20px;
+}
+.announcement-content p {
+  margin: 8px 0;
+  color: #666;
+  line-height: 1.6;
+}
+.layui-card-header .layui-icon-notice {
+  color: #FF5722;
+  margin-right: 5px;
+}
+.announcement-close {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.announcement-close:hover {
+  background: #f8f8f8;
+  color: #FF5722;
+  transform: translateY(-50%) rotate(90deg);
+}
+.announcement-close .layui-icon {
+  font-size: 16px;
+  transition: transform 0.3s ease;
+}
+#announcementBox {
+  transition: all 0.3s ease;
+}
+.announcement-close:active {
+  transform: translateY(-50%) scale(0.9);
 }
