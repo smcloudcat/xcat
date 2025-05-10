@@ -8,7 +8,8 @@
   <meta name="keywords" content="XCAT文件传输助手,面对面文件传输,实时文件传输,文件互传">
   <meta name="description" content="XCAT文件传输助手是一个实时文件互传的工具，无需登录任何账号，易操作，两台设备快速传输文件">
   <link rel="stylesheet" href="https://cdn.lwcat.cn/layui/css/layui.css">
-  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/1.1.1/index.css">
+  <link rel="stylesheet" href="https://cdn.lwcat.cn/XCAT/1.1.2/index.css">
+  <link rel="icon" type="image/ico" href="/favicon.ico">
 <!--  <link rel="stylesheet" href="index.css">-->
 </head>
 <body>
@@ -26,7 +27,8 @@
 </div>
     <div class="layui-card-body">
       <div class="announcement-content">
-        <p>📢 最新公告：你所看到的这个版本为1.1.1</p>
+        <p>📢 最新公告：</p>
+        <P>当前版本为1.1.2</P>
       </div>
     </div>
   </div>
@@ -102,7 +104,7 @@
 <script src="https://cdn.lwcat.cn/jquery/jquery.js"></script>
 <script src="https://cdn.lwcat.cn/layui/layui.js"></script>
 <script src="https://cdn.lwcat.cn/qrious/qrious.min.js"></script>
-<script src="https://cdn.lwcat.cn/XCAT/1.1.1/index.js"></script>
+<script src="https://cdn.lwcat.cn/XCAT/1.1.2/index.js"></script>
 <!--<script src="index.js"></script>-->
 </body>
 </html>

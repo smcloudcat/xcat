@@ -1,5 +1,5 @@
 /**
- * v1.1.1 | GPL-2.0 license 
+ * v1.1.2 | GPL-2.0 license 
  * emial：yuncat@email.lwcat.cn
  */
  :root {
@@ -133,4 +133,31 @@ body {
 }
 .announcement-close:active {
   transform: translateY(-50%) scale(0.9);
+}
+.dragging-over::before {
+  content: '释放文件上传';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255,255,255,0.9);
+  border: 3px dashed #1E9FFF;
+  z-index: 9999;
+  pointer-events: none;
+  animation: dragPulse 1.5s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #1E9FFF;
+  font-weight: bold;
+}
+@keyframes dragPulse {
+  0% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+  100% { opacity: 0.6; transform: scale(1); }
+}
+.layui-layer-loading {
+  z-index: 999999 !important;
 }

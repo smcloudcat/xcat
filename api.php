@@ -22,6 +22,9 @@ switch ($act) {
     case 'upload':
         handleUpload();
         break;
+    case 'merge':
+        handleMerge();
+        break;
     case 'captcha':
         handleCaptcha();
         break;

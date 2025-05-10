@@ -19,6 +19,13 @@ https://transfer.nki.pw/
 禁止将本程序用于传输违反当地法律的内容，本程序允许商用，支持二开，但必须保留版权，否则将追究法律责任！
 
 ## 更新日志 (以本文件和core.php的版本号为准)
+### 1.1.2
+1. 文件支持分片上传
+2. 优化各个操作的加载动画
+3. 文件上传支持全局拖拽
+4. 修复下载文件时概率出现格式错误问题
+5. 修复v1.1.1房间码不是纯数字问题
+
 ### 1.1.1
 1. 新增公告和底部信息
 2. 修改房间码为纯数字，方便输入
@@ -35,6 +42,7 @@ https://transfer.nki.pw/
 1. 无
 
 ## 演示图片
-![前台](https://img.czzu.cn/u/xcat/Hxw0aM8h.png "前台")
-![创建](https://img.czzu.cn/u/xcat/6ACkgBe8.png "创建")
-![文件上传](https://img.czzu.cn/u/xcat/zKDFzAzq.png "文件上传")
+![前台](https://img.czzu.cn/u/xcat/iFTnct6i.png "前台")
+![创建](https://img.czzu.cn/u/xcat/CrAlc9bC.png "创建")
+![创建2](https://img.czzu.cn/u/xcat/l5VzFnr8.png2 "创建")
+![文件上传](https://img.czzu.cn/u/xcat/gl7jfhns.png "文件上传")
